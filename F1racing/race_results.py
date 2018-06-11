@@ -10,7 +10,6 @@ css_url = "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css
 app.css.append_css({'external_url': css_url})
 
 df = pd.read_excel('H:\\My Documents\\webprojects\\dash_apps\\boards\\f1racing\\data\\final_results2005_2017.xlsx', encoding='latin-1')
-#df = pd.read_excel('C:\\datasets\\f1racing\\final_results2005_2017.xlsx', encoding='latin-1')
 
 headtop = 50
 mleft = 30
